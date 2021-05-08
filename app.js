@@ -32,7 +32,7 @@ app.post('/', function(req, res){
         url: "https://us1.api.mailchimp.com/3.0/lists/4798439246?skip_merge_validation=true&skip_duplicate_check=true",
         method : 'POST',
         headers: {
-            "Authorization": "Burnett1 859055d9736dd172f695c5cfe61ba9ce-us1"
+            "Authorization": {mailchimp api}
         },
         body: jsonData
     }
